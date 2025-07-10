@@ -1,0 +1,247 @@
+
+    *{
+      margin: 0;
+    }
+    html, body{
+      background: linear-gradient(to right, #000018, #1a0033);
+      height: 100%;
+      
+    }
+   
+
+    li{
+      list-style: none;
+      padding: 20px;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      
+    }
+  .navbar{
+    position: absolute;
+    background: #000018;
+    height: 100vh;
+    width: 220px;
+    
+    transition: 1s;
+    left:-100%;
+  }
+  header{
+    background: #000018;
+    width: 100%;
+    height: 50px;
+    position:fixed;
+    top:0;
+    z-index:4;
+  }
+  .fexar{
+    display: block;
+    z-index:3;
+    color: black;
+    position: absolute;
+    height: 50px;
+    margin-top: 10%;
+    font-size: 30px;
+   width: 50px;
+    left: 80%;
+  }
+  h2{
+  margin-top: 10px;
+  text-align: center;
+  }
+  .im{
+    position: absolute;
+    height: 180px;
+    border-radius: 50%;
+    width: 180px;
+    background-size: cover;
+    border:red 2px solid;
+    background-image:url(ft.jpg) ;
+    left: 8%;
+    margin-top: 10px;
+  }
+  h1{
+    z-index: 2;
+    color: black;
+    margin-top: 20px ;
+  }
+  h2  {
+    color: white; 
+    animation: animacao 1s;
+  }
+  ul{
+    text-align: center;
+    padding: 10px;
+    margin-top:20px ;
+    color:white;
+  }
+  main .txt2{
+    margin-top: 10px;
+    color: black;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  section{
+    background: white;
+    margin-bottom: 50px;
+text-align: center;
+border-radius: 10px;
+padding: 10px;
+  }
+  main{
+    top:60px;
+    width: 97%;
+    
+  }
+  p{
+    text-align: justify;
+    width: 300px;
+    margin: 20px auto;
+    color: #000018;
+    
+    padding: 15px;
+    border-radius:10px;
+    box-shadow: 1px 1px 20px #000018;
+  }
+  strong{
+    color:red;
+  }
+  .servico2{
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .servico{
+    background: transparent;
+  }
+  .servico3{
+    border-radius: 20px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .Sobre {
+    animation: animacao 1.5s; 
+    margin-top: 50px;
+    padding: 10px;
+  }
+  .what{
+    animation: animacao 2s; 
+  }
+  .web{
+    animation: animacao 2.1s; 
+  }
+  
+  .int{
+    animation: animacao 2.3s; 
+  }
+  .ladi{
+    animation: animacao 2.5s; 
+  }
+  .link{
+    color: darkblue;
+  }
+  /* Secao keyframe...!🤓*/
+  
+  @keyframes animacao{
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+    }
+
+  
+  footer{
+    bottom: 0;
+    position: relative;
+    z-index: 5;
+    height: 70px;
+    width:100%;
+    text-align:center ;
+    overflow: hidden;
+  }
+  #para{
+    text-align: center;
+    bottom: 0;
+    z-index: 5;
+    height: 60px;
+    width: 100%;
+    border-radius: 0px;
+    background: white;
+  }
+
+   /* Media quries...!🤓*/
+@media (min-width: 1024px) {
+  main{
+width: 580px;
+margin-left: 35%;
+  }
+  .navbar{
+left: 0;
+  }
+  summary{
+display: none;
+  }
+}
+.nome{
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+@keyframes navbar2{
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 50%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+a{
+  position: relative;
+  height: 40px;
+  padding: 12px;
+}
+
+a::after{
+  content: "";
+  background-color: red;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  transition: .6s;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+a:hover::after{
+  width: 100%;
+}
+.fexar{
+  border-radius: 50%;
+  text-align: center;
+  color
+}
+.fexar{
+  background: #160000;
+  border: 1px solid black;
+  background-size:cover;
+  height:40px;
+  color: white;
+  width:40px;
+}
+
+
+  
